@@ -5,13 +5,14 @@ import './Home.css'
 
 // components
 import RecipeList from '../../components/RecipeList'
+import Spinner from '../../components/Spinner'
 
 function Home() {
-  const { data, isPending, error } = useFetch(" http://localhost:3000/recipes")
+  const { data, isPending, error } = useFetch("http://localhost:3000/recipes")
   return (
     <div className='home'>
       {error && <p className='error'>{error}</p>}
-      {isPending && <p className='loading'>Loading...</p>}
+      {isPending && <p className='loading'><Spinner /></p>}
       {data && <RecipeList recipes={data}/>}
     </div>
   )
