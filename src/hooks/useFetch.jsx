@@ -39,7 +39,7 @@ export const useFetch = (url, method = "GET") => {
           setIsPending(false)
           setError('Could not fetch the data')
         }
-      }
+      } 
     }
 
     if (method === 'GET') {

@@ -45,9 +45,24 @@
         "garlic",
         "tomato"
       ],
-      "method": "bla bla",
+      "method": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Donec ac odio tempor orci dapibus ultrices in iaculis. Ultricies integer quis auctor elit. Pellentesque id nibh tortor id aliquet lectus proin nibh. Interdum velit euismod in pellentesque. Ultricies integer quis auctor elit. Sit amet est placerat in egestas. Amet cursus sit amet dictum sit amet justo donec. Lacus luctus accumsan tortor posuere. Ut etiam sit amet nisl purus in mollis nunc. Sit amet purus gravida quis blandit.",
       "cookingTime": "25 minutes",
       "id": "X94YV42"
+    },
+    {
+      "title": "Beef Noodles",
+      "ingredients": [
+        "250g noodles",
+        "2 peppers",
+        "3 carrots",
+        "soy sauce",
+        "100g mushrooms",
+        "honey",
+        "500g minced beef"
+      ],
+      "method": "Fry the veggies together in a pan, add soy and honey, add the beef and keep frying, add noodles and mix it all",
+      "cookingTime": "30 minutes",
+      "id": "nWtGo34"
     }
   ]
 }
