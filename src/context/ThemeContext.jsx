@@ -1,4 +1,4 @@
-import { createContext } from 'core-js/library/fn/reflect/es7/metadata'
+import { createContext } from 'react'
 
 export const ThemeContext = createContext()
 

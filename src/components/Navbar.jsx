@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom'
 import burger from '../assets/burger1.png'
+import { useContext } from 'react'
+import Searchbar from './Searchbar'
+import { ThemeContext } from '../context/ThemeContext'
 
 // styles
 import './Navbar.css'
-import Searchbar from './Searchbar'
 
 function Navbar() {
+  const { color } = useContext(ThemeContext)
   return (
-    <div className='navbar'>
+    <div className='navbar' style= {{ background: color}}>
         <nav>
             <Link to='/' className='brand'>
                 <h1>
