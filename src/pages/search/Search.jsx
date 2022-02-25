@@ -22,15 +22,10 @@ function Search() {
 
   return (
     <div>
+      <h2 className="page-title">Recipes including "{query}"</h2>
       {error && <p className='error'>{error}</p>}
       {isPending && <p className='loading'><Spinner /></p>}
-      {data && data.length > 0 ? 
-        <>
-          <h2 className="page-title">Recipes including "{query}"</h2>
-          <RecipeList recipes={data} />
-        </>
-      : 
-        <h2 className="page-title">Sorry, no results</h2>}
+      {data && <RecipeList recipes={data} />}
     </div>
   )
 }
