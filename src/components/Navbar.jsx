@@ -3,6 +3,7 @@ import burger from '../assets/burger1.png'
 
 // styles
 import './Navbar.css'
+import Searchbar from './Searchbar'
 
 function Navbar() {
   return (
@@ -14,6 +15,7 @@ function Navbar() {
                   Delicious.
                 </h1>
             </Link>
+            <Searchbar />
             <Link to='/create'>Create Recipe</Link>
         </nav>
     </div>
