@@ -34,3 +34,9 @@ input, textarea {
   text-align: center;
   margin: 40px auto;
 }
+
+.error.dark {
+  text-align: center;
+  margin: 40px auto;
+  color: #dfdfdf;
+}

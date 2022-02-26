@@ -1,5 +1,6 @@
 import { useLocation } from 'react-router-dom'
 import { useFetch } from '../../hooks/useFetch'
+import { useTheme } from '../../hooks/useTheme'
 
 // styles
 import './Search.css'
@@ -15,14 +16,15 @@ function Search() {
 
   const url = 'http://localhost:3000/recipes?q=' + query
   const {error, isPending, data} = useFetch(url)
+  const { mode } = useTheme()
 
   if (query === ""){
-    return  <h2 className="page-title">Sorry, no results</h2>
+    return  <h2 className={`page-title ${mode}`}>Sorry, no results</h2>
   }
 
   return (
-    <div>
-      <h2 className="page-title">Recipes including "{query}"</h2>
+    <div className={`search ${mode}`}>
+      <h2 className={`page-title ${mode}`}>Recipes including "{query}"</h2>
       {error && <p className='error'>{error}</p>}
       {isPending && <p className='loading'><Spinner /></p>}
       {data && <RecipeList recipes={data} />}

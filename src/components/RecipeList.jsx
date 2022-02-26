@@ -8,7 +8,7 @@ function RecipeList({ recipes }) {
   const { mode } = useTheme()
 
   if (recipes.length === 0){
-    return <div className="error">Sorry, no recipes to load...</div>
+    return <div className={`error ${mode}`}>Sorry, no recipes to load...</div>
   }
 
   return (

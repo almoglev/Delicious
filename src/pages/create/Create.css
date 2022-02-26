@@ -32,3 +32,14 @@
   .ingredients button {
     margin: 0 0 0 10px;
   }
+
+  .create.dark {
+    color: rgb(184, 184, 184);
+    max-width: 480px;
+    margin: 60px auto;
+  }
+  .page-title.dark {
+    text-align: center;
+    margin: 40px auto;
+    color: rgb(184, 184, 184);
+  }

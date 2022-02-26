@@ -63,6 +63,25 @@
       "method": "Fry the veggies together in a pan, add soy and honey, add the beef and keep frying, add noodles and mix it all",
       "cookingTime": "30 minutes",
       "id": "nWtGo34"
+    },
+    {
+      "title": "pizza",
+      "ingredients": [
+        "cheese",
+        "dough"
+      ],
+      "method": "llllllllllll",
+      "cookingTime": "9 minutes",
+      "id": "XUA7jsP"
+    },
+    {
+      "title": "a",
+      "ingredients": [
+        "a"
+      ],
+      "method": "a",
+      "cookingTime": "12 minutes",
+      "id": "WkRgmA3"
     }
   ]
 }
