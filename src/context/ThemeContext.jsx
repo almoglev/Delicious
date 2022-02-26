@@ -20,7 +20,7 @@ export function ThemeProvider({ children }) {
     // first argument- reducer func, second argument- initial state. 
     // useReducer returns a state, and dispatch. the dispatch call the function inside useReducer, themeReducer in this case
     const [state, dispatch] = useReducer(themeReducer, {
-        color: '#58249c',
+        color: '#018DDE',
         mode: 'light'
     })
 
