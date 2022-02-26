@@ -26,6 +26,7 @@ function RecipeList({ recipes }) {
           <div>{recipe.method.substring(0,100)}...</div>
           <Link to={`/recipes/${recipe.id}`}>Cook Me!</Link>
           <img
+           alt="delete"
            src={Trashcan}
            className="delete"
            onClick={() => handleDelete(recipe.id)}
